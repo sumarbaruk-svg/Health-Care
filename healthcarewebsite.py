@@ -7,12 +7,11 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# 1. Page Configuration
-st.set_page_config(
-    page_title="Pearl PharmMed Healthcare",
-    page_icon="💊",
-    layout="wide"
-)
+st.markdown("""
+    <meta name="description" content="Pearl PharmMed Healthcare...">
+    <meta name="keywords" content="Pharmacy, Healthcare...">
+    <meta name="google-site-verification" content="UNGA_VERIFICATION_CODE_INGA" />
+    """, unsafe_allow_html=True)
 
 # --- CSS STYLING (Background Fade, Card Boxes & Light Buttons) ---
 st.markdown(
