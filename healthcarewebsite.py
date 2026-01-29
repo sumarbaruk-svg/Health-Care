@@ -1,5 +1,12 @@
 import streamlit as st
 
+st.set_page_config(
+    page_title="Pearl PharmMed Healthcare",
+    page_icon="💊",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
 # 1. Page Configuration
 st.set_page_config(
     page_title="Pearl PharmMed Healthcare",
