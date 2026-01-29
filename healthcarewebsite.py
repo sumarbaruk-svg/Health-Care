@@ -7,9 +7,8 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# Unga Google verification code-a inga paste pannunga
 st.markdown("""
-    <meta name="google-site-verification" content=<meta name="google-site-verification" content="JuHPHIQRi7CC39Arg_RRNmDGZCAYjcpxH5A4jZDjgFk" /> />
+    <meta name="google-site-verification" content="<meta name="google-site-verification" content="JuHPHIQRi7CC39Arg_RRNmDGZCAYjcpxH5A4jZDjgFk" />" />
     """, unsafe_allow_html=True)
 
 st.markdown("""
