@@ -1,5 +1,20 @@
 import streamlit as st
 
+# --- Google Analytics Setup Start ---
+st.markdown(
+    """
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FLV6M8X16T"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-FLV6M8X16T');
+    </script>
+    """,
+    unsafe_allow_html=True
+)
+# --- Google Analytics Setup End ---
+
 st.set_page_config(
     page_title="Pearl PharmMed Healthcare",
     page_icon="💊",
