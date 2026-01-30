@@ -1,18 +1,7 @@
 import streamlit as st
 
-# --- Google Analytics Setup Start ---
-st.markdown(
-    """
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FLV6M8X16T"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-FLV6M8X16T');
-    </script>
-    """,
-    unsafe_allow_html=True
-)
+
+
 # --- Google Analytics Setup End ---
 
 st.set_page_config(
@@ -22,15 +11,10 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# Google verification code-a inga paste pannunga
-st.markdown("""
-    <meta name="google-site-verification" content="JuHPHIQRi7CC39Arg_RRNmDGZCAYjcpxH5A4jZDjgFk" />
-    """, unsafe_allow_html=True)
-
 st.markdown("""
     <meta name="description" content="Pearl PharmMed Healthcare...">
     <meta name="keywords" content="Pharmacy, Healthcare...">
-    <meta name="google-site-verification" content="UNGA_VERIFICATION_CODE_INGA" />
+    <meta name="google-site-verification" content="JuHPHIQRi7CC39Arg_RRNmDGZCAYjcpxH5A4jZDjgFk" />
     """, unsafe_allow_html=True)
 
 # --- CSS STYLING (Background Fade, Card Boxes & Light Buttons) ---
